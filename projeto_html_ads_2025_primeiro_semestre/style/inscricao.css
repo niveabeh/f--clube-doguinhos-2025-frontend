@@ -1,0 +1,123 @@
+.hero-inscricao {
+  background: url("../img/cachorro-deitado.png") var(--cor-fundo) center / cover no-repeat;
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--cor-fundo);
+  padding: 50px 0;
+}
+
+.container-formulario-inscricao {
+  border-radius: 20px;
+  background: url("../img/cachorro-like.jpg") var(--cor-fundo) center / cover no-repeat;
+  display: flex;
+  max-width: 1184px;
+  padding: 20px;
+}
+
+.formulario-left , .formulario-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 554px;
+  max-width: 554px;
+  height: 554px; 
+  padding: 20px 12px;
+  gap: 10px;
+}
+
+.formulario-left input, .formulario-left textarea {
+  resize: none;
+  width: 100%;
+  max-width: 490px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--branco);
+  color: var(--cinza);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.formulario-left label, 
+.formulario-left legend {
+  color: var(--preto);
+  font-family: Poppins, sans-serif;
+}
+
+.formulario-left legend {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.formulario-left fieldset {
+  border: 1px solid var(--cinza);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.aceitar-termos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.aceitar-termos div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aceitar-termos input {
+  width: 15px;
+  height: 15px; 
+}
+
+.aceitar-termos span {
+  color: var(--cinza);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container-botao-enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.botao-enviar {
+  max-width: 340px;
+  padding: 8px 20px;
+  border: 4px solid var(--azul-escuro);
+  background: var(--azul-escuro);
+  text-align: center;
+}
+
+.botao-enviar:hover {
+  border-color: var(--laranja);
+  background: var(--branco);
+}
+
+.botao-enviar span {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--branco);
+}
+
+.botao-enviar:hover span {
+  color: var(--laranja);
+}
