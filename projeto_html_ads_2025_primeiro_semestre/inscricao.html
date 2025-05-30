@@ -43,41 +43,47 @@
                     <div class="texto-logo"><a href="index.html" id="texto-logo-top-bar">DogLovePets</a></div>
                 </div>
                 <form>
-                    <fieldset class="faleConosco">
+                    <fieldset>
                         <legend>Formulário de Inscrição</legend>
-                        <label for="nome">Nome</label>
-                        <input type="text" placeholder="Nome" id="idNome" required>
-                        <label for="sobrenome">Sobrenome</label>
-                        <input type="text" placeholder="Sobrenome" id="sobrenome" required>
-                        <label for="email">Email</label>
-                        <input type="text" placeholder="E-mail" id="email" required>
-                        <label for="telefone">Telefone</label>
-                        <input type="text" placeholder="Telefone" id="telefone" required>
-                        <label for="motivo">Motivo</label>
-                        <textarea name="txacomentario" id="motivo"></textarea>
-                        <div class="aceitar-termos">
-                            <div>
-                                <input type="checkbox" id="termos" name="termos" required>
-                                <label for="termos">Concordo com os <strong>termos e condições</strong></label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="privacidade" name="privacidade" required>
-                                <label for="privacidade">Concordo com a <strong>política de privacidade</strong></label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="cookies" name="cookies" required>
-                                <label for="cookies">Aceito os <strong>cookies</strong></label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="novidades" name="novidades">
-                                <label for="novidades">Quero receber <strong>novidades</strong> por e-mail</label>
+                        <div class="frm-basico">
+                            <label for="nome">Nome</label>
+                            <input type="text" placeholder="Nome" id="idNome" required>
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" placeholder="Sobrenome" id="sobrenome" required>
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="E-mail" id="email" required>
+                            <label for="telefone">Telefone</label>
+                            <input type="text" placeholder="Telefone" id="telefone" required>
+                        </div>
+                        <div class="frm-menor">
+                            <label for="data">Data</label>
+                            <input type="date" id="data" required>
+                            <div class="frm_sexo">
+                                <label for="sexo">Sexo</label>
+                                <input type="radio" id="feminino" name="sexo" value="feminino">
+                                <label for="feminino" >Feminino</label>
+                                <input type="radio" id="masculino" name="sexo" value="masculino">
+                                <label for="masculino">Masculino</label>
                             </div>
                         </div>
-                        <div class="container-botao-enviar"><button
-                                class="btn botao-enviar"><span>Enviar</span></button></div>
+                        <div class="aceitar-termos">
+                            <div><input type="checkbox" id="cookies" name="cookies" required>
+                                <label for="cookies"><span>Desejo participar do fã-clube </span></label>
+                            </div>
+                            <div><input type="checkbox" id="termos" name="termos" required>
+                                <label for="termos"><span>Concordo com os termos e condições</span></label>
+                            </div>
+                            <div><input type="checkbox" id="privacidade" name="privacidade" required>
+                                <label for="privacidade"><span>Concordo com a política de privacidade </span></label>
+                            </div>
+                            <div><input type="checkbox" id="novidades" name="novidades">
+                                <label for="novidades"><span>Quero receber novidades por e-mail </span></label>
+                            </div>
+                        </div>
+                        <div class="container-botao-enviar">
+                            <input type="submit" value="Enviar" class="btn botao-enviar">
+                            <input type="submit" value="Limpar" class="btn botao-limpar">
+                        </div>
                     </fieldset>
                 </form>
             </div>
