@@ -9,7 +9,7 @@ O Dog Lovers Club é um projeto fictício acadêmico desenvolvido na disciplina 
 ## 🎨 Layout do Fã Clube
 ![Imagem do Layout Hero](https://github.com/niveabeh/f--clube-doguinhos-2025-frontend/blob/main/projeto_html_ads_2025_primeiro_semestre/img/print-do-projeto/hero-pagina-inicial.png)
 ![Imagem do Layout Footer e Formulário Email](https://github.com/niveabeh/f--clube-doguinhos-2025-frontend/blob/main/projeto_html_ads_2025_primeiro_semestre/img/print-do-projeto/footer-e-form-email.png)
-![Imagem do Layout Footer e Formulário inscrição](https://github.com/niveabeh/f--clube-doguinhos-2025-frontend/blob/main/projeto_html_ads_2025_primeiro_semestre/img/print-do-projeto/form.png)
+![Imagem do Layout Footer e Formulário inscrição](https://github.com/niveabeh/f--clube-doguinhos-2025-frontend/blob/main/projeto_html_ads_2025_primeiro_semestre/img/print-do-projeto/Captura%20de%20tela%202025-05-30%20111426.png)
 ![Imagem do Layout hero conteudo](https://github.com/niveabeh/f--clube-doguinhos-2025-frontend/blob/main/projeto_html_ads_2025_primeiro_semestre/img/print-do-projeto/hero-conteudo.png)
 
 ## 📚 Tecnologias Utilizadas
