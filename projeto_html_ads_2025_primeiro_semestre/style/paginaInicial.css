@@ -34,7 +34,6 @@
     font-size: 32px;
     font-weight: 500;
 }
-
 /* Botões */
 .botao-pink,
 .botao-pink-frm {
@@ -43,6 +42,9 @@
     text-align: center;
     cursor: pointer;
     transition: background 0.3s, border 0.3s;
+}
+.botao-pink a{
+    text-decoration: none;
 }
 
 .botao-pink {
