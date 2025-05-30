@@ -33,7 +33,7 @@ section {
   gap: 10px;
 }
 
-.formulario-left input, .formulario-left textarea {
+.formulario-left input{
   resize: none;
   width: 100%;
   max-width: 490px;
@@ -45,6 +45,32 @@ section {
   font-family: Poppins, sans-serif;
   font-size: 12px;
   font-weight: 400;
+}
+input[type="date"] {
+  resize: none;
+  max-width: 100px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--branco);
+  color: var(--cinza);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.frm_sexo label[for="feminino"]{
+  color: var(--cinza);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.frm_sexo label[for="masculino"] {
+  color: var(--cinza);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+
 }
 
 .formulario-left label, 
@@ -96,9 +122,6 @@ section {
   align-items: center;
   width: 100%;
 }
-
-
-
 .botao-enviar {
   max-width: 340px;
   padding: 8px 20px;
@@ -119,5 +142,27 @@ section {
 }
 
 .botao-enviar:hover span {
+  color: var(--laranja);
+}
+.botao-limpar {
+  max-width: 100px;
+  padding: 8px 20px;
+  border: 4px solid var(--laranja);
+  background: var(--laranja);
+  text-align: center;
+}
+
+.botao-limpar:hover {
+  border-color: var(--laranja);
+  background: var(--branco);
+}
+
+.botao-limpar span {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--branco);
+}
+
+.botao-limpar:hover span {
   color: var(--laranja);
 }
