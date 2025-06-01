@@ -1,5 +1,5 @@
 # f--clube-doguinhos-2025-frontend
-O Dog Lovers Club é um projeto fictício acadêmico desenvolvido na disciplina de Desenvolvimento Web. A iniciativa busca reforçar conceitos fundamentais de html e css, explorando a estruturação de conteúdo, estilização visual.
+O Dog Lovers Club é um projeto fictício acadêmico desenvolvido na disciplina de Desenvolvimento Web. A iniciativa busca reforçar conceitos fundamentais de html e css, explorando a estruturação de conteúdo e estilização visual.
 
 ### 🚀 Objetivos do Projeto
 
